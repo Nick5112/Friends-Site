@@ -4,6 +4,9 @@ body{
 	font-size: 20px;
 	line-height: 30px;
 }
+
+/* header styles */
+
 header{
 	background-color: #e8c5c1;
 	text-align: center;
@@ -25,6 +28,8 @@ header img{
 	border-radius: 150px;
 	border: 15px solid #00c790; 
 }
+
+/* main body styles */
 
 main{
 	max-width: 800px;
@@ -50,6 +55,16 @@ h2{
 	margin: 40pix 0 10px;
 }
 
+p.caption{
+	color: #00c790;
+	font-family:  'Handlee', cursive;
+	font-size: 50px;
+	font-style: bold;
+	margin-top: 10;
+}
+
+/* footer styles */
+
 footer{
 	background-color: #e8c5c1;
 	text-align: center;
@@ -67,12 +82,4 @@ footer a{
 footer a:hover{
 	opacity: .5;
 	background-color: transparent;
-}
-
-p.caption{
-	color: #00c790;
-	font-family:  'Handlee', cursive;
-	font-size: 50px;
-	font-style: bold;
-	margin-top: 10;
 }
